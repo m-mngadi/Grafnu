@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## TODO misc:
 
-## Getting Started
+# Create terms of service and privacy policy
 
-First, run the development server:
+# Create footer for the site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## TODO features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Connect Supabase database
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Configure protected route on middleware
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Create form to collect campaign details(Title, Description, Tags, Requirements, Date Range, Website url) and save to database
 
-## Learn More
+# Gallery that shows all, active or ended campaigns
 
-To learn more about Next.js, take a look at the following resources:
+# Create Stripe session actions for once-off payment (create a product on stripe with price of $15 once-off payment)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Video submission selector actions from TikTok for campaign paticipants
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## TODO pages:
 
-## Deploy on Vercel
+# Dashboard Page to show currentUser campaigns (whether created or participating in)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Explore Page to show all public campaigns
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Rewards Page
+
+# Create Campaign Page
+
+# Confirm Campaign Details Page
+
+# View Campaign Detials Page (Participate Button, Overview, Leaderboard, Entry Submission)
+
+# Stripe Checkout Success Page
