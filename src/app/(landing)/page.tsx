@@ -7,7 +7,7 @@ export default function LandingPage() {
         <div className="text-center md:text-start">
           <h1 className="flex flex-col text-4xl md:text-6xl font-bold text-balance">
             <span>Growth hacking, </span>
-            <span>productized.</span>
+            <span>as a service.</span>
           </h1>
           <p className="py-6 md:max-w-lg md:text-wrap text-lg md:text-2xl text-pretty">
             A low-cost strategy for businesses that helps your team acquire new

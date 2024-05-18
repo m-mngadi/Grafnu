@@ -7,14 +7,18 @@ interface ThemeContextType {
 }
 export const ThemeContext = createContext<ThemeContextType>({});
 
+const getLocalStorage = () => {
+  "use client";
+  return localStorage.getItem("theme")
+    ? JSON.parse(localStorage.getItem("theme")!)
+    : window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+
 export const ThemeProvider = ({ children }: any) => {
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme")
-      ? JSON.parse(localStorage.getItem("theme")!)
-      : window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light"
-  );
+  const localTheme = getLocalStorage();
+  const [theme, setTheme] = useState(localTheme);
 
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(theme));

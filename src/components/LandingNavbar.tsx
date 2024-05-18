@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 const poppins = Poppins({ weight: "600", style: "normal", subsets: ["latin"] });
 
-const Navbar = (props: { logoOnly?: boolean }) => {
+const LandingNavbar = (props: { logoOnly?: boolean }) => {
   const { logoOnly } = props;
   const pathname = usePathname();
   const { changeTheme } = useContext(ThemeContext);
@@ -167,4 +167,4 @@ const Navbar = (props: { logoOnly?: boolean }) => {
   );
 };
 
-export default Navbar;
+export default LandingNavbar;

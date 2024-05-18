@@ -1,35 +1,33 @@
 ## TODO misc:
 
-# Create terms of service and privacy policy
+### Create terms of service and privacy policy
 
-# Create footer for the site
+### Create footer for the site
 
 ## TODO features:
 
-# Connect Supabase database
+### Create Campaign Page [DONE]
 
-# Configure protected route on middleware
+### Configure protected route on middleware[DONE]
 
-# Create form to collect campaign details(Title, Description, Tags, Requirements, Date Range, Website url) and save to database
+### Create form to collect campaign details(Title, Description, Tags, Requirements, Date Range, Website url) [DONE]
 
-# Gallery that shows all, active or ended campaigns
+### Connect Supabase database [PENDING]
 
-# Create Stripe session actions for once-off payment (create a product on stripe with price of $15 once-off payment)
+### Gallery that shows all, active or ended campaigns [PENDING]
 
-# Video submission selector actions from TikTok for campaign paticipants
+### Create Stripe session actions for once-off payment (create a product on stripe with price of $15 and $10 once-off payment) [PENDING]
+
+### Video submission selector actions from TikTok for campaign paticipants [PENDING]
 
 ## TODO pages:
 
-# Dashboard Page to show currentUser campaigns (whether created or participating in)
+### Dashboard Page to show currentUser campaigns (whether created or participating in) [IN_PROGRESS]
 
-# Explore Page to show all public campaigns
+### Explore Page to show all public campaigns [IN_PROGRESS]
 
-# Rewards Page
+### Rewards Page [IN_PROGRESS]
 
-# Create Campaign Page
+### View Campaign Detials Page (Participate Button, Overview, Leaderboard, Entry Submission) [IN_PROGRESS]
 
-# Confirm Campaign Details Page
-
-# View Campaign Detials Page (Participate Button, Overview, Leaderboard, Entry Submission)
-
-# Stripe Checkout Success Page
+### Stripe Checkout Success Page [PENDING]
