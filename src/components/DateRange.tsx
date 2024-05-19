@@ -55,9 +55,7 @@ export const DateRangePicker = (props: {
           <Button
             id="date"
             variant={"ghost"}
-            className={`w-full justify-start text-left font-normal ${className} ${
-              !value && "text-muted-foreground"
-            }`}
+            className={`w-full justify-start text-left font-normal ${className}`}
           >
             <IconCalendar className="mr-2 h-4 w-4" />
             {value?.from ? (

@@ -19,7 +19,7 @@ const FilterBy = ({
 }) => {
   return (
     <Select defaultValue={defaultValue}>
-      <SelectTrigger className="size-full h-[48px]">
+      <SelectTrigger className="size-full h-[48px] border-base-content">
         <SelectValue placeholder={label ?? "Select item..."} />
       </SelectTrigger>
       <SelectContent>

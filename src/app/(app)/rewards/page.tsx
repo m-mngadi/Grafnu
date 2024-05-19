@@ -38,7 +38,7 @@ const RewardsPage = () => {
           <div className="flex flex-col">
             <Link
               href=""
-              className="flex items-center max-w-36 gap-2 px-3 py-3 justify-center rounded-lg text-sm bg-neutral text-white border border-white"
+              className="flex items-center max-w-36 gap-2 px-3 py-3 justify-center rounded-lg text-sm btn btn-neutral text-neutral-content border border-base-content"
             >
               Update
               <IconExternalLink />

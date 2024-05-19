@@ -182,7 +182,7 @@ const CreateCampaignPage = () => {
               <p className="text-rose-500">{errors.numberOfDays?.message}</p>
             )}
             <Button
-              className="btn md:max-w-md bg-neutral text-neutral-content"
+              className="btn md:max-w-md btn-neutral text-neutral-content border border-base-content"
               variant="ghost"
               type="submit"
               disabled={isSubmitting}

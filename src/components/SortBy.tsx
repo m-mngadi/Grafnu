@@ -11,7 +11,7 @@ import {
 const SortBy = () => {
   return (
     <Select defaultValue="asc">
-      <SelectTrigger className="size-full h-[48px]">
+      <SelectTrigger className="size-full h-[48px] border-base-content">
         <SelectValue placeholder="Sort by" />
       </SelectTrigger>
       <SelectContent>
